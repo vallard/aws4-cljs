@@ -1,5 +1,5 @@
 # aws4
-Simple Native CLJS AWS4 Signature Library
+Simple Native Clojurescript AWS4 Signature Library
 
 ## Intro
 Here's the problem:  I'm going about my business writing a clojurescript frontend app and I need to securely access AWS API Gateway.  But in order to do this, it turns out I need to sign my headers with this ridiculously complicated process called [AWS Signature Version 4](http://docs.aws.amazon.com/general/latest/gr/signing_aws_api_requests.html).  So after trolling github and other places forever, I don't see anything that is light and that I can easily put in my code without including 6 million extra libraries.  So I wrote it myself.  It may not be that great, but at least it might help some poor soul who finds themselves in the same situation I did.  
